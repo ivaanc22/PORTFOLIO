@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body
+    id="inicio">
+    <nav id="desktop-nav">
+      <div class="logo">PORTFOLIO</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#sobremi">Sobre mi</a></li>
+          <li><a href="#experiencia">Competencias profesionales</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Iván Cazalla</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#sobremi" onclick="toggleMenu()">Sobre mí</a></li>
+          <li><a href="#experiencia" onclick="toggleMenu()">Competencias profesionales</a></li>
+          <li><a href="#proyectos" onclick="toggleMenu()">Proyectos</a></li>
+          <li><a href="#contacto" onclick="toggleMenu()">Contacto</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Foto Iván C" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hola, soy</p>
+        <h1 class="title">Iván Cazalla</h1>
+        <p class="section__text__p2">Técnico informático</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Curriculum IC 24.pdf')"
+          >
+            Descargar CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contacto'">
+            Contacto
+          </button>
+        </div>
+        <div id="socials-container">
+        </div>
+      </div>
+    </section>
+    <section id="sobremi">
+      <p class="section__text__p1">Conóceme más</p>
+      <h1 class="title">Sobre mí</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="sobremi-pic"
+          />
+        </div>
+        <div class="sobremi-details-container">
+          <div class="sobremi-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experiencia</h3>
+              <br>
+              <b><h4>-Editor y Diseñador Gráfico<br/></h4><p>de youtubers e influencers particulares (2016 - 2023)</p>
+                <br>
+                <h4>-Prácticas de SMR<br/></h4><p>realizadas en Smartbits (marzo 2022 - junio 2022)<br/></p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Educación</h3>
+              <br>
+              <b><h4>-Centro Estudios Superiores Afuera:<br/></h4><p>Grado Medio SMR (2020 - 2022)<br/>Grado Superior DAM1 (2022 - 2023)</p>
+              <br>
+              <del><h4>-Universidad Europea de Madrid:<br/></h4><p>Grado Superior DAM2 (2024 - 2025)<br/></p></del>
+            <br>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Matrícula realizada curso 24-25, segundo año Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM2) cursado en Universidad Europea de Madrid.
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="experiencia">
+      <p class="section__text__p1">Explore mis</p>
+      <h1 class="title">Competencias profesionales</h1>
+      <div class="experiencia-details-container">
+        <div class="sobremi-containers">
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <div>
+                  <p>Montaje y configuración de ordenadores y periféricos.</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Mantenimiento de sistemas microinformáticos y redes locales.</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Elaboración de documentación técnica y administrativa del sistema.</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Creación y administración de páginas webs, tiendas...</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Diseño e implemetación de Bases de Datos.</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Instalación, configuración y uso de softwares de aplicación.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container2">
+            <div class="article-container2">
+              <article>
+                <div>
+                  <p>Word</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Powerpoint</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Excel</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>HTML</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>CSS</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>JavaScript</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Photoshop</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Lightroom</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Sony Vegas</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>After Effects</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Wordpress</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>Shopify</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+     <br><br>
+    </section>
+        </section>
+    <section id="contacto">
+      <p class="section__text__p1">Opciones para</p>
+      <h1 class="title">contactarme</h1>
+      <div class="contacto-info-upper-container">
+        <div class="contacto-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contacto-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">ivaancazallaa@gmail.com</a></p>
+        </div>
+        <div class="contacto-info-container">
+          <img
+            src="./assets/whatsapp.png"
+            alt="LinkedIn icon"
+            class="icon contacto-icon"
+          />
+          <p><a>633450178</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <br>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobremi">Sobre mí</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
